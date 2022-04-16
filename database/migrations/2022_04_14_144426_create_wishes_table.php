@@ -14,7 +14,8 @@ class CreateWishesTable extends Migration
     public function up()
     {
         Schema::create('wishes', function (Blueprint $table) {
-            $table->bigIncrements('id');
+            $table->id(); //approachesのwish_id参照先
+            $table->foreignId('part_id')->constrained('parts');
             $table->string('name', 100);
             $table->timestamps();
         });

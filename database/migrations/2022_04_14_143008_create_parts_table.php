@@ -14,7 +14,7 @@ class CreatePartsTable extends Migration
     public function up()
     {
         Schema::create('parts', function (Blueprint $table) {
-            $table->bigIncrements('id');
+            $table->id();   //wishesのpart_id参照先
             $table->string('name',100);
             $table->timestamps();
         });

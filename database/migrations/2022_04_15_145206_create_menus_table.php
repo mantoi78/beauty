@@ -14,7 +14,8 @@ class CreateMenusTable extends Migration
     public function up()
     {
         Schema::create('menus', function (Blueprint $table) {
-            $table->bigIncrements('id');
+            $table->id();
+            $table->foreignId('salon_id')->constrained('salons');
             $table->string('name', 100);
             $table->timestamps();
         });

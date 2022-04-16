@@ -14,7 +14,7 @@ class CreateSalonsTable extends Migration
     public function up()
     {
         Schema::create('salons', function (Blueprint $table) {
-            $table->bigIncrements('id');
+            $table->id(); //menusのsalon_id参照先
             $table->string('name', 100);
             $table->string('address');
             $table->double('assessment', 3, 2);

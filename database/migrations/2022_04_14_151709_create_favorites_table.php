@@ -14,7 +14,8 @@ class CreateFavoritesTable extends Migration
     public function up()
     {
         Schema::create('favorites', function (Blueprint $table) {
-            $table->bigIncrements('id');
+            $table->id();
+            $table->foreignId('approach_id')->constrained('approaches');
             $table->timestamps();
         });
     }
