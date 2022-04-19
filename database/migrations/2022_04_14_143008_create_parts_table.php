@@ -15,7 +15,7 @@ class CreatePartsTable extends Migration
     {
         Schema::create('parts', function (Blueprint $table) {
             $table->id();   //wishesのpart_id参照先
-            $table->string('name',100);
+            $table->string('name');
             $table->timestamps();
         });
     }
