@@ -15,7 +15,7 @@ class CreateSalonsTable extends Migration
     {
         Schema::create('salons', function (Blueprint $table) {
             $table->id(); //menusのsalon_id参照先
-            $table->string('name', 100);
+            $table->string('name');
             $table->string('address');
             $table->double('assessment', 3, 2);
             $table->timestamps();

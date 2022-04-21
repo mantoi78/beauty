@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PartController;
+use App\Http\Controllers\SalonController;
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -19,3 +22,4 @@ Route::get('/', function () {
 });
 
 Route::get('/parts', [PartController::class, 'index']);
+Route::get('/salons', [SalonController::class, 'index']);

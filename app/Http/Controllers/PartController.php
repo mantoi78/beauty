@@ -7,6 +7,10 @@ use Illuminate\Http\Request;
 
 class PartController extends Controller
 {
+    /**
+     * partの一覧表示
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
+     */
     public function index()
     {
         // partsのテーブルの一覧データ
