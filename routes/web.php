@@ -3,6 +3,10 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PartController;
 use App\Http\Controllers\SalonController;
+use App\Http\Controllers\WishController;
+use App\Http\Controllers\ApproachController;
+use App\Http\Controllers\MenuController;
+use App\Http\Controllers\FavoriteController;
 
 
 
@@ -23,3 +27,7 @@ Route::get('/', function () {
 
 Route::get('/parts', [PartController::class, 'index']);
 Route::get('/salons', [SalonController::class, 'index']);
+Route::get('/wishes', [WishController::class, 'index']);
+Route::get('/approaches', [ApproachController::class, 'index']);
+Route::get('/menus', [MenuController::class, 'index']);
+Route::get('/favorites', [FavoriteController::class, 'index']);

@@ -15,8 +15,8 @@ class CreateWishesTable extends Migration
     {
         Schema::create('wishes', function (Blueprint $table) {
             $table->id(); //approachesのwish_id参照先
-            $table->foreignId('part_id')->constrained('parts');
-            $table->string('name', 100);
+            $table->foreignId('part_id')->constrained('parts'); //外部キー
+            $table->string('name');
             $table->timestamps();
         });
     }

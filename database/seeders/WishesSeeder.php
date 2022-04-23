@@ -2,11 +2,11 @@
 
 namespace Database\Seeders;
 
-use App\Models\Salon;
+use App\Models\Wish;
 use Faker\Factory as Faker;
 use Illuminate\Database\Seeder;
 
-class SalonSeeder extends Seeder
+class WishesSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -15,13 +15,12 @@ class SalonSeeder extends Seeder
      */
     public function run()
     {
-        if (app()->environment() !== 'production' && !Salon::query()->exists()) {
+        if (app()->environment() !== 'production' && !Wish::query()->exists()) {
             $faker = Faker::create('ja_JP');
             for ($i = 1; $i <= 100; $i++) {
-                Salon::query()->create([
+                Wish::query()->create([
                     'name' => $faker->name,
-                    'address' => $faker->address,
-                    'assessment' => $faker->randomFloat(1, 0, 5)
+                    'part_id' => $faker->numberBetween(1, 100) //1~100の数字をランダムに出力
                 ]);
             }
         }

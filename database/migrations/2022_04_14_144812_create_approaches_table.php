@@ -16,7 +16,7 @@ class CreateApproachesTable extends Migration
         Schema::create('approaches', function (Blueprint $table) {
             $table->id();  //favoritesのapproach_id参照先
             $table->foreignId('wish_id')->constrained('wishes');
-            $table->string('name', 100);
+            $table->string('name');
             $table->text('description');
             $table->timestamps();
         });

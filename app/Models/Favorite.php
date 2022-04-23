@@ -8,4 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Favorite extends Model
 {
     use HasFactory;
+
+    protected $fillable = ['session_id','approach_id'];
+
 }
