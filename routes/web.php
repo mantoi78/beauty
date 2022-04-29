@@ -21,9 +21,7 @@ use App\Http\Controllers\FavoriteController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'App\Http\Controllers\WebController@index')->name('top');
 
 Route::get('/parts', [PartController::class, 'index']);
 Route::get('/salons', [SalonController::class, 'index']);
