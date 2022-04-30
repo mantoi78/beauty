@@ -8,15 +8,24 @@
 </head>
 
 <body>
+<h1>TOP ｜ 部位別一覧 ｜ 眉毛 ｜ 眉毛をキレイな形にしたい ｜ ハリウッドブロウリフト</h1>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 <a href="http://127.0.0.1:8080/salons" class="btn btn-primary" role="button">
 
     @foreach($menus as $menu)
-        <div>{{ $menu->salon_id }}</div>
-        <div>{{ $menu->name }}</div>
+        <table border="1">
+            <tr>
+                <td>{{ $menu->salon_id }}</td>
+                <td>{{ $menu->name }}</td>
+            </tr>
+        </table>
     @endforeach
 </a>
+
+<button class="btn btn-primary" onclick="history.back(-1)">Back</button>
+
 </body>
 </html>
 

@@ -19,6 +19,9 @@
     @endforeach
 </a>
 
+<a href="http://127.0.0.1:8080/" class="btn btn-primary" role="button">戻る</a>
+<button class="btn btn-primary" onclick="history.back(-1)">Back</button>
+
 </body>
 </html>
 

@@ -15,9 +15,16 @@
 <a href="http://127.0.0.1:8080/approaches" class="btn btn-primary" role="button">
 
     @foreach($wishes as $wish)
-        <div>{{ $wish->part_id }}</div>
-        <div>{{ $wish->name }}</div>
+        <table border="1">
+            <tr>
+                <td>{{ $wish->part_id }}</td>
+                <td>{{ $wish->name }}</td>
+            </tr>
+        </table>
     @endforeach
 </a>
+
+<a href="http://127.0.0.1:8080/parts" class="btn btn-primary" role="button">戻る</a>
+<button class="btn btn-primary" onclick="history.back(-1)">Back</button>
 </body>
 </html>
