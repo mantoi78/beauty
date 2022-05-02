@@ -9,7 +9,6 @@ use App\Http\Controllers\MenuController;
 use App\Http\Controllers\FavoriteController;
 
 
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -25,7 +24,9 @@ Route::get('/', 'App\Http\Controllers\WebController@index')->name('top');
 
 Route::get('/parts', [PartController::class, 'index']);
 Route::get('/salons', [SalonController::class, 'index']);
-Route::get('/wishes', [WishController::class, 'index']);
+Route::get('/wishes/{part_id}', [WishController::class, 'index']);
 Route::get('/approaches', [ApproachController::class, 'index']);
+
+Route::get('/approaches/{id}', [ApproachController::class, 'detail']);
 Route::get('/menus', [MenuController::class, 'index']);
 Route::get('/favorites', [FavoriteController::class, 'index']);

@@ -20,7 +20,7 @@ class FavoritesSeeder extends Seeder
             for ($i = 1; $i <= 100; $i++) {
                 Favorite::query()->create([
                     'session_id' => $faker->numberBetween(1, 100),
-                    'approach_id' => $faker->numberBetween(1, 100)
+                    'approach_id' => $faker->numberBetween(1, 9)
                 ]);
             }
         }

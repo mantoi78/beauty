@@ -15,6 +15,17 @@ class ApproachController extends Controller
     {
         $approaches = Approach::query()->get()->all();
 
-        return view('approach.index',compact('approaches'));
+        return view('approach.index', compact('approaches'));
+    }
+
+    /**
+     * @param int $id
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
+     */
+    public function detail(int $id)
+    {
+        $approaches = Approach::query()->findOrFail($id);
+
+        return view('approach.detail', compact('approache'));
     }
 }

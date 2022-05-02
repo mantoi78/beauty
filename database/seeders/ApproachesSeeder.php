@@ -3,6 +3,8 @@
 namespace Database\Seeders;
 
 use App\Models\Approach;
+use App\Models\Part;
+use Carbon\Carbon;
 use Faker\Factory as Faker;
 use Illuminate\Database\Seeder;
 
@@ -17,13 +19,29 @@ class ApproachesSeeder extends Seeder
     {
         if (app()->environment() !== 'production' && !Approach::query()->exists()) {
             $faker = Faker::create('ja_JP');
-            for ($i =1; $i <= 100; $i++) {
-                Approach::query()->create([
-                    'wish_id' => $faker->numberBetween(1, 100),
-                    'name' => $faker->name,
-                    'description' => $faker->realText(1000)
-                ]);
+            $array = [];
+            $count = 1;
+            $parts = Part::query()->with('wishes')->get()->all();
+            $approaches = ['スタイリング', 'リフト', 'パーマ'];
+
+            foreach ($parts as $part) {
+                foreach ($part->wishes as $wish) {
+                    foreach ($approaches as $approach) {
+                        $record = [
+                            'id' => $count,
+                            'wish_id' => $wish->id,
+                            'name' => $faker->realText(10),
+                            'description' => $faker->realText(50),
+                            'created_at' => Carbon::now(),
+                            'updated_at' => Carbon::now()
+                        ];
+
+                        $array[] = $record;
+                        $count++;
+                    }
+                }
             }
-            }
+            Approach::query()->insert($array);
+        }
     }
 }

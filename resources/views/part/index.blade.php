@@ -1,4 +1,11 @@
-<!DOCTYPE html>
+@extends('layouts.layouts')
+
+@section('title', '')
+
+@section('content')
+
+@endsection
+    <!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="utf-8">

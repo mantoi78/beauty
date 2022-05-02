@@ -20,6 +20,6 @@ class DatabaseSeeder extends Seeder
         $this->call(WishesSeeder::class);
         $this->call(ApproachesSeeder::class);
         $this->call(MenusSeeder::class);
-        $this->call(FavoritesSeeder::class);
+//        $this->call(FavoritesSeeder::class);
     }
 }
