@@ -17,6 +17,7 @@ class Wish extends Model
      */
     public function approaches(): HasMany
     {
+        //$wish->approach wishとapproachの関連　対多
         return $this->hasMany(approach::class);
     }
 }

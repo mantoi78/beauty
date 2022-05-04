@@ -17,7 +17,7 @@ class PartsSeeder extends Seeder
     public function run()
     {
         if (app()->environment() !== 'production' && !Part::query()->exists()) {
-            $parts = ['眉毛', 'まつ毛', '目'];
+            $parts = ['眉毛', 'まつ毛', '目', 'ネイル'];
             $count = 1;
             $array = [];
 

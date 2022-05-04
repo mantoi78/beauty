@@ -17,6 +17,7 @@ class SalonsSeeder extends Seeder
     {
         if (app()->environment() !== 'production' && !Salon::query()->exists()) {
             $faker = Faker::create('ja_JP');
+            //iが１から100まで表示する、1ずつ増やしていく
             for ($i = 1; $i <= 100; $i++) {
                 Salon::query()->create([
                     'name' => $faker->name,
