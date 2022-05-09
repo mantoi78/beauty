@@ -5,3 +5,19 @@ a  {
 h1 {
     font-size: 18px;
 }
+
+ul {
+    list-style: none;
+    margin: 40px auto;
+    display: flex;
+    padding: 10px;
+}
+
+li {
+    list-style: none;
+    margin: 40px auto;
+    border:1px solid #999;
+    padding: 10px;
+    display: block;
+    background: #ffebb4;
+}

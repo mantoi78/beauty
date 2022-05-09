@@ -18,7 +18,7 @@ class Approach extends Model
      */
     public function wishes(): BelongsTo
     {
-        //$approach->wish approachとwishの関連　対
+        //$approach->wish approachとwishの関連　対1
         return $this->belongsTo(wish::class);
     }
 }

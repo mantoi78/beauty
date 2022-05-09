@@ -34,6 +34,10 @@ Route::get('/parts/{part_id}', [WishController::class, 'index'])
 Route::get('/wishes/{id}', [ApproachController::class, 'detail'])
     ->name('approaches.detail');
 
+//説明ページからサロン一覧へ
+
+
+
 Route::get('/salons', [SalonController::class, 'index']);
 
 //Route::get('/wishes/{part_id}', [WishController::class, 'index']);

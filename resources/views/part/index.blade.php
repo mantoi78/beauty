@@ -1,9 +1,9 @@
+
 @extends('layouts.layouts')
 
 @section('content')
 
 
-    <link rel="stylesheet" href="css/style.css">
 
     <h1>TOP ｜ 部位一覧</h1>
     <ul>
