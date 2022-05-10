@@ -47,4 +47,8 @@ Route::get('/approaches/{id}', [ApproachController::class, 'detail']);
 Route::get('/menus', [MenuController::class, 'index']);
 Route::get('/favorites', [FavoriteController::class, 'index']);
 
+Route::get('/about', function (){
+    return view('naon.about');
+});
+
 

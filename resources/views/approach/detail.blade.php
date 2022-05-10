@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <h1>TOP ｜ 部位別一覧 ｜ { $part->name }} ｜ { $approach->name }}</h1>
+    <h1>TOP ｜ 部位別一覧 ｜ {{ $part->name }} ｜ {{ $approach->name }}</h1>
     <ul>
         <li>
             {{ $approach->name }}とは

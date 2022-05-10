@@ -1,5 +1,3 @@
-
-
 @extends('layouts.layouts')
 
 @section('content')
@@ -8,13 +6,12 @@
         @foreach($part->wishes as $wish)
             <li>
                 <ul>
-                    @foreach($wish->approaches as $detail => $approach)
-                        <li>
-                            {{ $wish->name }}
-                            <a href="{{ route('approaches.detail', $detail) }}">{{ $approach->name }}</a>
-
-                        </li>
-                    @endforeach
+                    <li>
+                        {{ $wish->name }}
+                        @foreach($wish->approaches as $approach)
+                            <a href="{{ route('approaches.detail', $approach->id) }}">{{ $approach->name }}</a>
+                        @endforeach
+                    </li>
                 </ul>
             </li>
         @endforeach
