@@ -51,4 +51,8 @@ Route::get('/about', function (){
     return view('naon.about');
 });
 
+Route::get('/toppage', function (){
+    return view('naon.index');
+});
+
 
