@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
     {{--    Todo --}}
-    <title>サイトの名前を入れる</title>
+    <title>Find Beauty</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
 

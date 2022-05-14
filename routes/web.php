@@ -20,10 +20,11 @@ use App\Http\Controllers\FavoriteController;
 |
 */
 
-//TOPページの表示
-Route::get('/', 'App\Http\Controllers\WebController@index')
-    ->name('top');
-//部位一覧ページの表示
+////TOPページの表示
+//Route::get('/', 'App\Http\Controllers\WebController@index')
+//    ->name('top');
+
+//TOPと部位一覧ページの表示
 Route::get('/parts', [PartController::class, 'index'])
     ->name('parts.index');
 //部位を選択した後の希望とメニュー一覧の表示
@@ -35,10 +36,11 @@ Route::get('/wishes/{id}', [ApproachController::class, 'detail'])
     ->name('approaches.detail');
 
 //説明ページからサロン一覧へ
+Route::get('/salons', [SalonController::class, 'index'])
+    ->name('salons.index');
 
 
-
-Route::get('/salons', [SalonController::class, 'index']);
+//Route::get('/salons', [SalonController::class, 'index']);
 
 //Route::get('/wishes/{part_id}', [WishController::class, 'index']);
 Route::get('/approaches', [ApproachController::class, 'index']);
@@ -51,8 +53,11 @@ Route::get('/about', function (){
     return view('naon.about');
 });
 
+Route::get(`/404, `)
+
 Route::get('/toppage', function (){
-    return view('naon.index');
+    return view('parts.index');
 });
+
 
 

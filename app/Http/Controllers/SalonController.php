@@ -2,13 +2,15 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Part;
+use App\Models\Wish;
+use App\Models\Approach;
 use App\Models\Salon;
 use Illuminate\Http\Request;
 
 class SalonController extends Controller
 {
     /**
-     * //サロンの一覧表示
      * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
      */
     public function index()

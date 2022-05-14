@@ -10,4 +10,9 @@ class Salon extends Model
     use HasFactory;
 
     protected $fillable = ['name', 'address', 'assessment'];
+
+
+
 }
+
+
