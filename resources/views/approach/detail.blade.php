@@ -15,7 +15,7 @@
                             <h3>{{ $approach->name }}</h3>
                             <ul>
                                 <li>
-                                    <a href="index.html">Home</a>
+                                    <a href="/parts">Home</a>
                                 </li>
                                 <li>{{ $part->name }} / {{ $approach->name }}</li>
                             </ul>

@@ -19,7 +19,7 @@
                         <h3>{{ $part->name }}</h3>
                         <ul>
                             <li>
-                                <a href="index.html">Home</a>
+                                <a href="/parts">Home</a>
                             </li>
                             <li>{{ $part->name }}</li>
                         </ul>
@@ -185,21 +185,21 @@
                 {{--                </div>--}}
                 {{--            </div>--}}
 
-                <div class="col-lg-12 col-md-12 text-center">
-                    <div class="pagination-area">
-                        <a href="blog-1.html" class="prev page-numbers">
-                            <i class="flaticon-arrow-pointing-to-left"></i>
-                        </a>
+{{--                <div class="col-lg-12 col-md-12 text-center">--}}
+{{--                    <div class="pagination-area">--}}
+{{--                        <a href="blog-1.html" class="prev page-numbers">--}}
+{{--                            <i class="flaticon-arrow-pointing-to-left"></i>--}}
+{{--                        </a>--}}
 
-                        <span class="page-numbers current" aria-current="page">1</span>
+{{--                        <span class="page-numbers current" aria-current="page">1</span>--}}
 {{--                        <a href="blog-1.html" class="page-numbers">2</a>--}}
 {{--                        <a href="blog-1.html" class="page-numbers">3</a>--}}
 
-                        <a href="blog-1.html" class="next page-numbers">
-                            <i class="flaticon-arrow-pointing-to-right"></i>
-                        </a>
-                    </div>
-                </div>
+{{--                        <a href="blog-1.html" class="next page-numbers">--}}
+{{--                            <i class="flaticon-arrow-pointing-to-right"></i>--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
             </div>
         </div>
         <div class="services-shape">

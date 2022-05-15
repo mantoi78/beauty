@@ -19,7 +19,7 @@
                         <h3>Salon</h3>
                         <ul>
                             <li>
-                                <a href="index.html">Home</a>
+                                <a href="/parts">Home</a>
                             </li>
                             <li>サロン一覧</li>
                         </ul>

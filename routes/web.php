@@ -42,22 +42,21 @@ Route::get('/salons', [SalonController::class, 'index'])
 
 //Route::get('/salons', [SalonController::class, 'index']);
 
-//Route::get('/wishes/{part_id}', [WishController::class, 'index']);
-Route::get('/approaches', [ApproachController::class, 'index']);
-
-Route::get('/approaches/{id}', [ApproachController::class, 'detail']);
-Route::get('/menus', [MenuController::class, 'index']);
-Route::get('/favorites', [FavoriteController::class, 'index']);
+////Route::get('/wishes/{part_id}', [WishController::class, 'index']);
+//Route::get('/approaches', [ApproachController::class, 'index']);
+//
+//Route::get('/approaches/{id}', [ApproachController::class, 'detail']);
+//Route::get('/menus', [MenuController::class, 'index']);
+//Route::get('/favorites', [FavoriteController::class, 'index']);
 
 Route::get('/about', function (){
     return view('naon.about');
 });
 
-Route::get(`/404, `)
 
-Route::get('/toppage', function (){
-    return view('parts.index');
-});
+//Route::get('/toppage', function (){
+//    return view('parts.index');
+//});
 
 
 
