@@ -24,7 +24,7 @@
 
                     <div class="col-lg-5 col-md-5">
                         <div class="inner-img">
-                            <img src="{{ url('css/assets/images/inner-banner/inner-banner11.png') }}" alt="Inner Banner" />
+                            <img src="{{ url('assets/images/inner-banner/inner-banner11.png') }}" alt="Inner Banner" />
                         </div>
                     </div>
                 </div>
@@ -38,19 +38,19 @@
                     <div class="col-lg-10">
                         <div class="services-details-content">
                             <div class="services-preview-img">
-                                <img src="{{ url('css/assets/images/services/services-details.jpg') }}" alt="Services Details" />
+                                <img src="{{ url('assets/images/services/services-details.jpg') }}" alt="Services Details" />
                             </div>
                             <h2 class="title">{{ $approach->name }}とは</h2>
                             <p>{{ $approach->description }}</p>
                             <div class="row">
                                 <div class="col-lg-6 col-md-6">
                                     <div class="services-preview-img">
-                                        <img src="{{ url('css/assets/images/services/services-img10.jpg') }}" alt="Services Details" />
+                                        <img src="{{ url('assets/images/services/services-img10.jpg') }}" alt="Services Details" />
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6">
                                     <div class="services-preview-img">
-                                        <img src="{{ url('css/assets/images/services/services-img15.jpg') }}" alt="Services Details" />
+                                        <img src="{{ url('assets/images/services/services-img15.jpg') }}" alt="Services Details" />
                                     </div>
                                 </div>
                             </div>

@@ -4,12 +4,6 @@
 
     <body>
 
-
-
-
-
-
-
     <!-- Inner Banner -->
     <div class="inner-banner">
         <div class="container-fluid">
@@ -28,7 +22,7 @@
 
                 <div class="col-lg-5 col-md-5">
                     <div class="inner-img">
-                        <img src="{{ url('css/assets/images/inner-banner/inner-banner10.png') }}" alt="Inner Banner"/>
+                        <img src="{{ url('assets/images/inner-banner/inner-banner10.png') }}" alt="Inner Banner">
                     </div>
                 </div>
             </div>
@@ -49,13 +43,13 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="services-item-two">
                         <a href="service-details.html">
-                            <img src="{{ url('css/assets/images/services/services-img7.jpg') }}" alt="Services"/>
+                            <img src="{{ url('assets/images/services/hbl.jpg' , 'assets/images/services/2d.3d.4d.png') }}" alt="Services">
                         </a>
                         <div class="content">
                             <div class="icon">
                                 <i class="flaticon-makeup-1"></i>
                             </div>
-                                <h3><a href="service-details.html">{{ $wish->name }}</a></h3>
+                                <h3>{{ $wish->name }}</h3>
 
                                 <p>
                                     @foreach($wish->approaches as $approach)
@@ -67,7 +61,7 @@
 {{--                                    <i class="flaticon-arrow-pointing-to-right"></i>--}}
 {{--                                </a>--}}
                                 <div class="content-right">
-                                    <img src="{{ url('css/assets/images/services/services-vector-2.png') }}" alt="Service"/>
+                                    <img src="{{ url('assets/images/services/services-vector-2.png') }}" alt="Service">
                                 </div>
                         </div>
                     </div>
@@ -78,7 +72,7 @@
 {{--                <div class="col-lg-4 col-md-6">--}}
 {{--                    <div class="services-item-two">--}}
 {{--                        <a href="detail.blade.php">--}}
-{{--                            <img src="{{ url('css/assets/images/services/services-img8.jpg') }}" alt="Services"/>--}}
+{{--                            <img src="{{ url('assets/images/services/services-img8.jpg') }}" alt="Services"/>--}}
 {{--                        </a>--}}
 {{--                        <div class="content">--}}
 {{--                            <div class="icon">--}}
@@ -91,7 +85,7 @@
 {{--                                <i class="flaticon-arrow-pointing-to-right"></i>--}}
 {{--                            </a>--}}
 {{--                            <div class="content-right">--}}
-{{--                                <img src="{{ url('css/assets/images/services/services-vector-2.png') }}" alt="Service"/>--}}
+{{--                                <img src="{{ url('assets/images/services/services-vector-2.png') }}" alt="Service"/>--}}
 {{--                            </div>--}}
 {{--                        </div>--}}
 {{--                    </div>--}}
@@ -100,7 +94,7 @@
 {{--                <div class="col-lg-4 col-md-6">--}}
 {{--                    <div class="services-item-two">--}}
 {{--                        <a href="detail.blade.php">--}}
-{{--                            <img src="{{ url('css/assets/images/services/services-img9.jpg') }}" alt="Services"/>--}}
+{{--                            <img src="{{ url('assets/images/services/services-img9.jpg') }}" alt="Services"/>--}}
 {{--                        </a>--}}
 {{--                        <div class="content">--}}
 {{--                            <div class="icon">--}}
@@ -113,7 +107,7 @@
 {{--                                <i class="flaticon-arrow-pointing-to-right"></i>--}}
 {{--                            </a>--}}
 {{--                            <div class="content-right">--}}
-{{--                                <img src="{{ url('css/assets/images/services/services-vector-2.png') }}" alt="Service"/>--}}
+{{--                                <img src="{{ url('assets/images/services/services-vector-2.png') }}" alt="Service"/>--}}
 {{--                            </div>--}}
 {{--                        </div>--}}
 {{--                    </div>--}}
@@ -122,7 +116,7 @@
                 {{--            <div class="col-lg-4 col-md-6">--}}
                 {{--                <div class="services-item-two">--}}
                 {{--                    <a href="detail.blade.php">--}}
-                {{--                        <img src="{{ url('css/assets/images/services/services-img10.jpg') }}" alt="Services"/>--}}
+                {{--                        <img src="{{ url('assets/images/services/services-img10.jpg') }}" alt="Services"/>--}}
                 {{--                    </a>--}}
                 {{--                    <div class="content">--}}
                 {{--                        <div class="icon">--}}
@@ -135,7 +129,7 @@
                 {{--                            <i class="flaticon-arrow-pointing-to-right"></i>--}}
                 {{--                        </a>--}}
                 {{--                        <div class="content-right">--}}
-                {{--                            <img src="{{ url('css/assets/images/services/services-vector-2.png') }}" alt="Service"/>--}}
+                {{--                            <img src="{{ url('assets/images/services/services-vector-2.png') }}" alt="Service"/>--}}
                 {{--                        </div>--}}
                 {{--                    </div>--}}
                 {{--                </div>--}}
@@ -144,7 +138,7 @@
                 {{--            <div class="col-lg-4 col-md-6">--}}
                 {{--                <div class="services-item-two">--}}
                 {{--                    <a href="detail.blade.php">--}}
-                {{--                        <img src="{{ url('css/assets/images/services/services-img15.jpg') }}" alt="Services"/>--}}
+                {{--                        <img src="{{ url('assets/images/services/services-img15.jpg') }}" alt="Services"/>--}}
                 {{--                    </a>--}}
                 {{--                    <div class="content">--}}
                 {{--                        <div class="icon">--}}
@@ -157,7 +151,7 @@
                 {{--                            <i class="flaticon-arrow-pointing-to-right"></i>--}}
                 {{--                        </a>--}}
                 {{--                        <div class="content-right">--}}
-                {{--                            <img src="{{ url('css/assets/images/services/services-vector-2.png') }}" alt="Service"/>--}}
+                {{--                            <img src="{{ url('assets/images/services/services-vector-2.png') }}" alt="Service"/>--}}
                 {{--                        </div>--}}
                 {{--                    </div>--}}
                 {{--                </div>--}}
@@ -166,7 +160,7 @@
                 {{--            <div class="col-lg-4 col-md-6">--}}
                 {{--                <div class="services-item-two">--}}
                 {{--                    <a href="detail.blade.php">--}}
-                {{--                        <img src="{{ url('css/assets/images/services/services-img14.jpg') }}" alt="Services"/>--}}
+                {{--                        <img src="{{ url('assets/images/services/services-img14.jpg') }}" alt="Services"/>--}}
                 {{--                    </a>--}}
                 {{--                    <div class="content">--}}
                 {{--                        <div class="icon">--}}
@@ -179,7 +173,7 @@
                 {{--                            <i class="flaticon-arrow-pointing-to-right"></i>--}}
                 {{--                        </a>--}}
                 {{--                        <div class="content-right">--}}
-                {{--                            <img src="{{ url('css/assets/images/services/services-vector-2.png') }}" alt="Service"/>--}}
+                {{--                            <img src="{{ url('assets/images/services/services-vector-2.png') }}" alt="Service"/>--}}
                 {{--                        </div>--}}
                 {{--                    </div>--}}
                 {{--                </div>--}}
@@ -203,7 +197,7 @@
             </div>
         </div>
         <div class="services-shape">
-            <img src="{{ url('css/assets/images/services/services-vector-3.png') }}" alt="Services"/>
+            <img src="{{ url('assets/images/services/services-vector-3.png') }}" alt="Services"/>
         </div>
     </div>
     <!-- Services Area End -->

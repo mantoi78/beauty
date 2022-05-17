@@ -1,17 +1,3 @@
-<body>
-
-{{--<!-- Pre Loader -->--}}
-{{--<div id="preloader">--}}
-{{--    <div id="preloader-area">--}}
-{{--        <div class="spinner"></div>--}}
-{{--        <div class="spinner"></div>--}}
-{{--        <div class="spinner"></div>--}}
-{{--    </div>--}}
-{{--    <div class="preloader-section preloader-left"></div>--}}
-{{--    <div class="preloader-section preloader-right"></div>--}}
-{{--</div>--}}
-{{--<!-- End Pre Loader -->--}}
-
 <!-- Top Header -->
 <header class="top-header">
     <div class="container-fluid">
@@ -69,8 +55,8 @@
             <div class="mobile-responsive-menu">
                 <div class="logo">
                     <a href="index.blade.php">
-                        <img src="{{ url('css/assets/images/logos/logo-small.png') }}" class="logo-one" alt="logo">
-                        <img src="{{ url('css/assets/images/logos/logo-white-small.png') }}" class="logo-two" alt="logo">
+                        <img src="{{ url('assets/images/logos/logo-small.png') }}" class="logo-one" alt="logo">
+                        <img src="{{ url('assets/images/logos/logo-white-small.png') }}" class="logo-two" alt="logo">
                     </a>
                 </div>
             </div>
@@ -82,8 +68,8 @@
         <div class="container-fluid">
             <nav class="navbar navbar-expand-md navbar-light ">
                 <a class="navbar-brand" href="index.blade.php">
-                    <img src="{{ url('css/assets/images/logos/logo.png') }}" class="logo-one" alt="Logo">
-                    <img src="{{ url('css/assets/images/logos/logo-white.png') }}" class="logo-two" alt="Logo">
+                    <img src="{{ url('assets/images/logos/logo.png') }}" class="logo-one" alt="Logo">
+                    <img src="{{ url('assets/images/logos/logo-white.png') }}" class="logo-two" alt="Logo">
                 </a>
 
                 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
@@ -406,6 +392,4 @@
         </div>
     </div>
 </div>
-<!-- End Navbar Area -->
-</body>
 

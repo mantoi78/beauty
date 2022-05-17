@@ -41,7 +41,7 @@
 
                 <div class="col-lg-5 col-md-5">
                     <div class="inner-img">
-                        <img src="{{ url('css/assets/images/inner-banner/inner-banner10.png') }}" alt="Inner Banner"/>
+                        <img src="{{ url('assets/images/inner-banner/inner-banner10.png') }}" alt="Inner Banner"/>
                     </div>
                 </div>
             </div>
