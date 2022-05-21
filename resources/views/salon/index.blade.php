@@ -44,7 +44,10 @@
                             <img src="{{ url('assets/images/testimonial/testimonial-img1.jpg') }}" alt="Testimonial"/>
                             <h3>{{ $salon->name }}</h3>
                             <p>{{ $salon->address }}</p>
+
                             <div class="rating">
+                           <span class="star-rating" data-rate={{ $salon->assessment}}</span>
+
                                 <i class="ri-star-fill"></i>
                                 <i class="ri-star-fill"></i>
                                 <i class="ri-star-fill"></i>

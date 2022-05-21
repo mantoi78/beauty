@@ -34,10 +34,18 @@ class WishesSeeder extends Seeder
                     ];
                     $array[] = $record;
                     $count++;
-                }
+
+
+//                $faker = Faker::create('ja_JP');
+//                for($i = 1; $i <= 12; $i++) {
+//                    Wish::query()->create([
+//                        'name' => $faker->name,
+//                    ]);
+
+        }
             }
 
-            Wish::query()->insert($array);
+//            Wish::query()->insert($array);
         }
     }
 }

@@ -12,7 +12,7 @@
                         <div class="about-slider owl-carousel owl-theme">
                             <div class="about-img">
                                 <div class="top-border"></div>
-                                <img src="{{ url('assets/images/about/about-img1.jpg') }}" alt="About"/>
+                                <img src="{{ url('assets/images/home-one/eye_1.jpg') }}" alt="About"/>
                                 <div class="bottom-border bottom-border-color"></div>
                             </div>
 

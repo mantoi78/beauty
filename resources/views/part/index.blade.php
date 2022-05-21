@@ -8,23 +8,23 @@
                 <div class="col-lg-6">
                     <div class="banner-slider owl-carousel owl-theme">
                         <div class="banner-content">
-                            <span>Nail and Beauty Salon</span>
-                            <h1>Experience In Nail Care</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut elit tellus luctus nec ullamcorper mattis pulvinar dapibus leo consectetur</p>
+{{--                            <span>Nail and Beauty Salon</span>--}}
+                            <h1>部位からメニューを見つける</h1>
+{{--                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut elit tellus luctus nec ullamcorper mattis pulvinar dapibus leo consectetur</p>--}}
                             <a href="/about" class="learn-btn">Learn More <i class="flaticon-arrow-pointing-to-right"></i></a>
                         </div>
 
                         <div class="banner-content">
-                            <span>Nail and Beauty Salon</span>
-                            <h1>Your Nail is Our Best Advert</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut elit tellus luctus nec ullamcorper mattis pulvinar dapibus leo consectetur</p>
+{{--                            <span>Nail and Beauty Salon</span>--}}
+                            <h1>希望からメニューを見つける</h1>
+{{--                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut elit tellus luctus nec ullamcorper mattis pulvinar dapibus leo consectetur</p>--}}
                             <a href="/about" class="learn-btn">Learn More <i class="flaticon-arrow-pointing-to-right"></i></a>
                         </div>
 
                         <div class="banner-content">
-                            <span>Nail and Beauty Salon</span>
-                            <h1>Your Best Nail Affair Salon</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut elit tellus luctus nec ullamcorper mattis pulvinar dapibus leo consectetur</p>
+{{--                            <span>Nail and Beauty Salon</span>--}}
+                            <h1>メニューの説明が見たい</h1>
+{{--                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut elit tellus luctus nec ullamcorper mattis pulvinar dapibus leo consectetur</p>--}}
                             <a href="about.html" class="learn-btn">Learn More <i class="flaticon-arrow-pointing-to-right"></i></a>
                         </div>
                     </div>
@@ -34,13 +34,13 @@
                 <div class="col-lg-6">
                     <div class="banner-img" data-speed="0.05" data-revert="true">
                         <div class="woman">
-                            <img src="{{ url('assets/images/home-one/woman.png') }}" data-aos="fade-up" data-aos-delay="900" data-aos-duration="1000" data-aos-once="true" alt="Banner">
+                            <img src="{{ url('assets/images/home-one/eye_1.jpg') }}" data-aos="fade-up" data-aos-delay="900" data-aos-duration="1000" data-aos-once="true" alt="Banner">
                             <div class="vector" data-aos="fade-down" data-aos-delay="900" data-aos-duration="1000" data-aos-once="true">
-                                <img src="{{ url('assets/images/home-one/home-vector.png') }}" alt="vector">
+{{--                                <img src="{{ url('assets/images/home-one/home-vector.png') }}" alt="vector">--}}
                             </div>
                         </div>
                         <div class="nail-img" data-aos="fade-up" data-aos-delay="900" data-aos-duration="1000" data-aos-once="true">
-                            <img src="{{ url('assets/images/home-one/nail-img.jpg') }} a" alt="Nail">
+{{--                            <img src="{{ url('assets/images/home-one/nail-img.jpg') }} a" alt="Nail">--}}
                         </div>
                     </div>
                 </div>
@@ -87,7 +87,7 @@
                         <div class="about-slider owl-carousel owl-theme">
                             <div class="about-img">
                                 <div class="top-border"></div>
-                                <img src="{{ url('assets/images/about/about-img1.jpg') }}" alt="About">
+                                <img src="{{ url('assets/images/home-one/eye_1.jpg') }}" alt="About">
                                 <div class="bottom-border"></div>
                             </div>
 
@@ -138,12 +138,12 @@
             <div class="row">
                 <div class="col-lg-3 col-6">
                     <div class="gallery-img">
-                        <img src="{{ url('assets/images/gallery/gallery-img1.jpg') }}" alt="Gallery">
+                        <img src="{{ url('assets/images/home-one/eye_1.jpg') }}" alt="Gallery">
                     </div>
                 </div>
                 <div class="col-lg-3 col-6">
                     <div class="gallery-img">
-                        <img src="{{ url('assets/images/gallery/gallery-img2.jpg') }}" alt="Gallery">
+                        <img src="{{ url('assets/images/gallery/eye_11_550×390.png') }}" alt="Gallery">
                     </div>
                 </div>
                 <div class="col-lg-3 col-6">

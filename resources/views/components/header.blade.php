@@ -68,8 +68,8 @@
         <div class="container-fluid">
             <nav class="navbar navbar-expand-md navbar-light ">
                 <a class="navbar-brand" href="index.blade.php">
-                    <img src="{{ url('assets/images/logos/logo.png') }}" class="logo-one" alt="Logo">
-                    <img src="{{ url('assets/images/logos/logo-white.png') }}" class="logo-two" alt="Logo">
+                    <img src="{{ url('assets/images/favicon_beauty_3.png') }}" class="logo-one" alt="Logo">
+{{--                    <img src="{{ url('assets/images/logos/logo-white.png') }}" class="logo-two" alt="Logo">--}}
                 </a>
 
                 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
@@ -120,8 +120,15 @@
                                     </a>
                                 </li>
 
+                                </li>
                                 <li class="nav-item">
                                     <a href="/parts/3" class="nav-link">
+                                        目
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="/parts/4" class="nav-link">
                                         ネイル
                                     </a>
                                 </li>
