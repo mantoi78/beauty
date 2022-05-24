@@ -18,6 +18,10 @@ class WishesSeeder extends Seeder
     public function run()
     {
         if (app()->environment() !== 'production' && !Wish::query()->exists()) {
+            // csvを読み込む
+            // $csv = file('wishes.csvのパス');
+            // Wish::query()->insert($csv);
+
             $parts = Part::query()->get()->all();
             $wishes = ['を綺麗な形にしたい', 'を足したい', 'のメイクをしたい'];
             $count = 1;
@@ -34,15 +38,7 @@ class WishesSeeder extends Seeder
                     ];
                     $array[] = $record;
                     $count++;
-
-
-//                $faker = Faker::create('ja_JP');
-//                for($i = 1; $i <= 12; $i++) {
-//                    Wish::query()->create([
-//                        'name' => $faker->name,
-//                    ]);
-
-        }
+                }
             }
 
 //            Wish::query()->insert($array);

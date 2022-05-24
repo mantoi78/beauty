@@ -15,15 +15,18 @@ class SalonsSeeder extends Seeder
      */
     public function run()
     {
+        //サロン名を作成
+        $alpha = range('A', 'Z');
         if (app()->environment() !== 'production' && !Salon::query()->exists()) {
             $faker = Faker::create('ja_JP');
-            //iが１から100まで表示する、1ずつ増やしていく
-            for ($i = 1; $i <= 100; $i++) {
-                Salon::query()->create([
-                    'name' => $faker->name,
-                    'address' => $faker->address,
-                    'assessment' => $faker->randomFloat(1, 0, 5)
-                ]);
+            for ($i = 1; $i <= 4; $i++) {
+                foreach ($alpha as $a) {
+                    Salon::query()->create([
+                        'name' => str_repeat($a, $i) . 'サロン',
+                        'address' => $faker->address,
+                        'assessment' => $faker->numberBetween(1, 5)
+                    ]);
+                }
             }
         }
     }

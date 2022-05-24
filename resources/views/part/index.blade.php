@@ -8,23 +8,23 @@
                 <div class="col-lg-6">
                     <div class="banner-slider owl-carousel owl-theme">
                         <div class="banner-content">
-{{--                            <span>Nail and Beauty Salon</span>--}}
-                            <h1>部位からメニューを見つける</h1>
-{{--                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut elit tellus luctus nec ullamcorper mattis pulvinar dapibus leo consectetur</p>--}}
+                            {{--                            <span>Nail and Beauty Salon</span>--}}
+                            <h2>部位からメニューを見つける</h2>
+                            {{--                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut elit tellus luctus nec ullamcorper mattis pulvinar dapibus leo consectetur</p>--}}
                             <a href="/about" class="learn-btn">Learn More <i class="flaticon-arrow-pointing-to-right"></i></a>
                         </div>
 
                         <div class="banner-content">
-{{--                            <span>Nail and Beauty Salon</span>--}}
-                            <h1>希望からメニューを見つける</h1>
-{{--                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut elit tellus luctus nec ullamcorper mattis pulvinar dapibus leo consectetur</p>--}}
+                            {{--                            <span>Nail and Beauty Salon</span>--}}
+                            <h2>希望からメニューを見つける</h2>
+                            {{--                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut elit tellus luctus nec ullamcorper mattis pulvinar dapibus leo consectetur</p>--}}
                             <a href="/about" class="learn-btn">Learn More <i class="flaticon-arrow-pointing-to-right"></i></a>
                         </div>
 
                         <div class="banner-content">
-{{--                            <span>Nail and Beauty Salon</span>--}}
-                            <h1>メニューの説明が見たい</h1>
-{{--                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut elit tellus luctus nec ullamcorper mattis pulvinar dapibus leo consectetur</p>--}}
+                            {{--                            <span>Nail and Beauty Salon</span>--}}
+                            <h2>メニューの説明が見たい</h2>
+                            {{--                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut elit tellus luctus nec ullamcorper mattis pulvinar dapibus leo consectetur</p>--}}
                             <a href="about.html" class="learn-btn">Learn More <i class="flaticon-arrow-pointing-to-right"></i></a>
                         </div>
                     </div>
@@ -36,11 +36,11 @@
                         <div class="woman">
                             <img src="{{ url('assets/images/home-one/eye_1.jpg') }}" data-aos="fade-up" data-aos-delay="900" data-aos-duration="1000" data-aos-once="true" alt="Banner">
                             <div class="vector" data-aos="fade-down" data-aos-delay="900" data-aos-duration="1000" data-aos-once="true">
-{{--                                <img src="{{ url('assets/images/home-one/home-vector.png') }}" alt="vector">--}}
+                                {{--                                <img src="{{ url('assets/images/home-one/home-vector.png') }}" alt="vector">--}}
                             </div>
                         </div>
                         <div class="nail-img" data-aos="fade-up" data-aos-delay="900" data-aos-duration="1000" data-aos-once="true">
-{{--                            <img src="{{ url('assets/images/home-one/nail-img.jpg') }} a" alt="Nail">--}}
+                            {{--                            <img src="{{ url('assets/images/home-one/nail-img.jpg') }} a" alt="Nail">--}}
                         </div>
                     </div>
                 </div>
@@ -57,7 +57,8 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="features-card">
                             <div class="img">
-                                <img src="{{ url('assets/images/features/features-img1.jpg') }}" alt="features"/>
+                                //違う画像を表示させる
+                                <img src="{{ url("assets/images/features/features-img". $part->id . ".jpg") }}" alt="features"/>
                             </div>
                             <div class="content">
                                 <div class="top-icon">

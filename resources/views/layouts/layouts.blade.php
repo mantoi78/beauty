@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- TODO Favicon -->
-    <link rel="icon" type="image/png" href="assets/images/favicon_beauty_3.png">
+    <link rel="icon" type="image/png" href="{{ url('assets/images/favicon_beauty_3.png') }}">
 
     {{--  Todo --}}
     <title>Find Beauty</title>

@@ -17,7 +17,7 @@ class CreateSalonsTable extends Migration
             $table->id(); //menusのsalon_id参照先
             $table->string('name');
             $table->string('address');
-            $table->double('assessment', 3, 2);
+            $table->integer('assessment');
             $table->timestamps();
         });
     }

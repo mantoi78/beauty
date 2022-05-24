@@ -21,10 +21,10 @@
                 <div class="footer-widget pe-5">
                     <div class="footer-logo">
                         <a href="index.blade.php">
-                            <img src="{{ url('assets/images/logos/logo.png') }}" class="footer-logo1" alt="Images">
+                            <img src="{{ url('assets/images/logos/logo_diamond.png') }}" class="footer-logo1" alt="Images">
                         </a>
                         <a href="index.blade.php">
-                            <img src="{{ url('assets/images/logos/logo-white.pn') }}g" class="footer-logo2" alt="Images">
+                            <img src="{{ url('assets/images/logos/logo_diamond.pn') }}g" class="footer-logo2" alt="Images">
                         </a>
                     </div>
 {{--                    <p>--}}

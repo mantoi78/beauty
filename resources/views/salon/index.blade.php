@@ -45,14 +45,15 @@
                             <h3>{{ $salon->name }}</h3>
                             <p>{{ $salon->address }}</p>
 
+                            //星評価
                             <div class="rating">
-                           <span class="star-rating" data-rate={{ $salon->assessment}}</span>
-
-                                <i class="ri-star-fill"></i>
-                                <i class="ri-star-fill"></i>
-                                <i class="ri-star-fill"></i>
-                                <i class="ri-star-line"></i>
-                                <i class="ri-star-line"></i>
+                                <span class="star-rating"></span>
+                                @for($i = 1; $i <= $salon->assessment; $i++)
+                                    <i class="ri-star-fill"></i>
+                                @endfor
+                                @for($i = 1; $i <= (5 - $salon->assessment);$i++)
+                                    <i class="ri-star-line"></i>
+                                @endfor
                             </div>
                         </div>
                     </div>

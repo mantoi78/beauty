@@ -55,8 +55,8 @@
             <div class="mobile-responsive-menu">
                 <div class="logo">
                     <a href="index.blade.php">
-                        <img src="{{ url('assets/images/logos/logo-small.png') }}" class="logo-one" alt="logo">
-                        <img src="{{ url('assets/images/logos/logo-white-small.png') }}" class="logo-two" alt="logo">
+                        <img src="{{ url('assets/images/favicon_beauty_3.png') }}" class="logo-one" alt="logo">
+                        <img src="{{ url('assets/images/favicon_beauty_3.png') }}" class="logo-two" alt="logo">
                     </a>
                 </div>
             </div>
@@ -69,7 +69,7 @@
             <nav class="navbar navbar-expand-md navbar-light ">
                 <a class="navbar-brand" href="index.blade.php">
                     <img src="{{ url('assets/images/favicon_beauty_3.png') }}" class="logo-one" alt="Logo">
-{{--                    <img src="{{ url('assets/images/logos/logo-white.png') }}" class="logo-two" alt="Logo">--}}
+                    <img src="{{ url('assets/images/favicon_beauty_3.png') }}" class="logo-two" alt="Logo">
                 </a>
 
                 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">

@@ -2,8 +2,6 @@
 
 @section('content')
 
-    <body>
-
     <!-- Inner Banner -->
     <div class="inner-banner">
         <div class="container-fluid">
@@ -201,11 +199,4 @@
         </div>
     </div>
     <!-- Services Area End -->
-
-
-
-
-
-
-    </body>
 @endsection

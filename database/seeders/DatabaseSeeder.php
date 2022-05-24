@@ -17,8 +17,8 @@ class DatabaseSeeder extends Seeder
     {
         $this->call(PartsSeeder::class);
         $this->call(SalonsSeeder::class);
-        $this->call(WishesSeeder::class);
-        $this->call(ApproachesSeeder::class);
+//        $this->call(WishesSeeder::class);
+//        $this->call(ApproachesSeeder::class);
         $this->call(MenusSeeder::class);
 //        $this->call(FavoritesSeeder::class);
     }

@@ -3,7 +3,6 @@
     @section('content')
 
 
-    <body>
 
 
         <!-- Inner Banner -->
