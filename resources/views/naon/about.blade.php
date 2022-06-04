@@ -18,13 +18,13 @@
 
                             <div class="about-img">
                                 <div class="top-border"></div>
-                                <img src="{{ url('assets/images/about/about-img1.jpg') }}" alt="About"/>
+                                <img src="{{ url('assets/images/about/about-img-2.jpg') }}" alt="About"/>
                                 <div class="bottom-border bottom-border-color"></div>
                             </div>
 
                             <div class="about-img">
                                 <div class="top-border"></div>
-                                <img src="{{ url('assets/images/about/about-img3.jpg') }}" alt="About"/>
+                                <img src="{{ url('assets/images/about/about-img-3.jpg') }}" alt="About"/>
                                 <div class="bottom-border bottom-border-color"></div>
                             </div>
                         </div>

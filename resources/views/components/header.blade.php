@@ -7,7 +7,7 @@
                     <ul>
                         <li>
                             <i class="flaticon-email"></i>
-                            <a href="mailto:info@naon.com">info@naon.com</a>
+                            <a href="mailto:info@findbeauty.com">info@findbeauty.com</a>
                         </li>
                         <li>
                             <i class="flaticon-telephone"></i>
@@ -31,16 +31,16 @@
                                 <i class="flaticon-twitter"></i>
                             </a>
                         </li>
-                        <li>
-                            <a href="https://www.linkedin.com/" target="_blank">
-                                <i class="flaticon-linkedin"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://vimeo.com/" target="_blank">
-                                <i class="flaticon-vimeo"></i>
-                            </a>
-                        </li>
+{{--                        <li>--}}
+{{--                            <a href="https://www.linkedin.com/" target="_blank">--}}
+{{--                                <i class="flaticon-linkedin"></i>--}}
+{{--                            </a>--}}
+{{--                        </li>--}}
+{{--                        <li>--}}
+{{--                            <a href="https://vimeo.com/" target="_blank">--}}
+{{--                                <i class="flaticon-vimeo"></i>--}}
+{{--                            </a>--}}
+{{--                        </li>--}}
                     </ul>
                 </div>
             </div>
@@ -353,12 +353,12 @@
                         {{--                                </ul>--}}
                         {{--                            </li>--}}
 
-                        <li class="nav-item">
-                            <a href="contact.html" class="nav-link">
-                                Contact Us
-                            </a>
-                        </li>
-                    </ul>
+{{--                        <li class="nav-item">--}}
+{{--                            <a href="contact.html" class="nav-link">--}}
+{{--                                Contact Us--}}
+{{--                            </a>--}}
+{{--                        </li>--}}
+{{--                    </ul>--}}
 
                     {{--                        <div class="others-options d-flex align-items-center">--}}
                     {{--                            <div class="optional-item">--}}

@@ -57,8 +57,8 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="features-card">
                             <div class="img">
-                                //違う画像を表示させる
-                                <img src="{{ url("assets/images/features/features-img". $part->id . ".jpg") }}" alt="features"/>
+{{--                                違う画像を表示させる--}}
+                                <img src="{{ url("assets/images/features/features-img". -$part->id . ".jpg") }}" alt="features"/>
                             </div>
                             <div class="content">
                                 <div class="top-icon">
@@ -94,13 +94,13 @@
 
                             <div class="about-img">
                                 <div class="top-border"></div>
-                                <img src="{{ url('assets/images/about/about-img2.jpg') }}" alt="About">
+                                <img src="{{ url('assets/images/about/about-img-2.jpg') }}" alt="About">
                                 <div class="bottom-border"></div>
                             </div>
 
                             <div class="about-img">
                                 <div class="top-border"></div>
-                                <img src="{{ url('assets/images/about/about-img3.jpg') }}" alt="About">
+                                <img src="{{ url('assets/images/about/about-img-3.jpg') }}" alt="About">
                                 <div class="bottom-border"></div>
                             </div>
                         </div>
@@ -139,42 +139,42 @@
             <div class="row">
                 <div class="col-lg-3 col-6">
                     <div class="gallery-img">
-                        <img src="{{ url('assets/images/home-one/eye_1.jpg') }}" alt="Gallery">
+                        <img src="{{ url('assets/images/gallery/gallery-img-1.png') }}" alt="Gallery">
                     </div>
                 </div>
                 <div class="col-lg-3 col-6">
                     <div class="gallery-img">
-                        <img src="{{ url('assets/images/gallery/eye_11_550×390.png') }}" alt="Gallery">
+                        <img src="{{ url('assets/images/gallery/gallery-img-2.png') }}" alt="Gallery">
                     </div>
                 </div>
                 <div class="col-lg-3 col-6">
                     <div class="gallery-img">
-                        <img src="{{ url('assets/images/gallery/gallery-img3.jpg') }}" alt="Gallery">
+                        <img src="{{ url('assets/images/gallery/gallery-img-3.jpg') }}" alt="Gallery">
                     </div>
                 </div>
                 <div class="col-lg-3 col-6">
                     <div class="gallery-img">
-                        <img src="{{ url('assets/images/gallery/gallery-img4.jpg') }}" alt="Gallery">
+                        <img src="{{ url('assets/images/gallery/gallery-img-4.jpg') }}" alt="Gallery">
                     </div>
                 </div>
                 <div class="col-lg-3 col-6">
                     <div class="gallery-img">
-                        <img src="{{ url('assets/images/gallery/gallery-img5.jpg') }}" alt="Gallery">
+                        <img src="{{ url('assets/images/gallery/gallery-img-5.jpg') }}" alt="Gallery">
                     </div>
                 </div>
                 <div class="col-lg-3 col-6">
                     <div class="gallery-img">
-                        <img src="{{ url('assets/images/gallery/gallery-img6.jpg') }}" alt="Gallery">
+                        <img src="{{ url('assets/images/gallery/gallery-img-6.jpg') }}" alt="Gallery">
                     </div>
                 </div>
                 <div class="col-lg-3 col-6">
                     <div class="gallery-img">
-                        <img src="{{ url('assets/images/gallery/gallery-img7.jpg') }}" alt="Gallery">
+                        <img src="{{ url('assets/images/gallery/gallery-img-7.jpg') }}" alt="Gallery">
                     </div>
                 </div>
                 <div class="col-lg-3 col-6">
                     <div class="gallery-img">
-                        <img src="{{ url('assets/images/gallery/gallery-img8.jpg') }}" alt="Gallery">
+                        <img src="{{ url('assets/images/gallery/gallery-img-8.jpg') }}" alt="Gallery">
                     </div>
                 </div>
             </div>

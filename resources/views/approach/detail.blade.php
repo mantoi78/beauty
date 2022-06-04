@@ -37,10 +37,12 @@
                     <div class="col-lg-10">
                         <div class="services-details-content">
                             <div class="services-preview-img">
-                                <img src="{{ url('assets/images/gallery/eye_11_1100×649.png') }}" alt="Services Details" />
+{{--                                詳細ページ画像--}}
+{{--                                <img src="{{ url('assets/images/gallery/eye_11_1100×649.png') }}" alt="Services Details" />--}}
+                                <img src="{{ url("assets/images/gallery/services-details/sd-img". -$approach->id . ".jpg") }}" alt="Services Details"/>
                             </div>
                             <h2 class="title">{{ $approach->name }}とは</h2>
-                            <p>{{ $approach->description }}</p>
+                            <p>{!! nl2br(e($approach->description)) !!}</p>
                             <div class="row">
                                 <div class="col-lg-6 col-md-6">
                                     <div class="services-preview-img">

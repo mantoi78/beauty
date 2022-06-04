@@ -5,8 +5,8 @@
             <p>
                 Copyright @
                 <script>document.write(new Date().getFullYear())</script>
-                <b>Naon</b> All Rights Reserved
-                <a href="https://hibootstrap.com/" target="_blank">HiBootstrap</a>
+                <b>mana furukawa</b>
+{{--                <a href="https://hibootstrap.com/" target="_blank">HiBootstrap</a>--}}
             </p>
         </div>
     </div>
@@ -41,16 +41,16 @@
                                 <i class="ri-twitter-fill"></i>
                             </a>
                         </li>
-                        <li>
-                            <a href="https://www.linkedin.com/" target="_blank">
-                                <i class="ri-linkedin-fill"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://vimeo.com/" target="_blank">
-                                <i class="ri-vimeo-fill"></i>
-                            </a>
-                        </li>
+{{--                        <li>--}}
+{{--                            <a href="https://www.linkedin.com/" target="_blank">--}}
+{{--                                <i class="ri-linkedin-fill"></i>--}}
+{{--                            </a>--}}
+{{--                        </li>--}}
+{{--                        <li>--}}
+{{--                            <a href="https://vimeo.com/" target="_blank">--}}
+{{--                                <i class="ri-vimeo-fill"></i>--}}
+{{--                            </a>--}}
+{{--                        </li>--}}
                     </ul>
                 </div>
             </div>
@@ -103,14 +103,14 @@
                             <i class="flaticon-email"></i>
                             <div class="content">
                                 <h4>Email:</h4>
-                                <span><a href="mailto:hello@naon.com" target="_blank">hello@naon.com</a></span>
+                                <span><a href="mailto:hello@findbeauty.com" target="_blank">hello@findbeauty.com</a></span>
                             </div>
                         </li>
                         <li>
                             <i class="flaticon-pin"></i>
                             <div class="content">
                                 <h4>Address</h4>
-                                <span>151, Demo Store United States</span>
+                                <span>151, Demo Store Japan</span>
                             </div>
                         </li>
                     </ul>

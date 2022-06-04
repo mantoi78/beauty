@@ -20,7 +20,7 @@
 
                 <div class="col-lg-5 col-md-5">
                     <div class="inner-img">
-                        <img src="{{ url('assets/images/gallery/eye_11_550×390.png') }}" alt="Inner Banner">
+                        <img src="{{ url("assets/images/features/features-img". -$part->id . ".jpg") }}" alt="features"/>
                     </div>
                 </div>
             </div>
@@ -41,13 +41,13 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="services-item-two">
                         <a href="service-details.html">
-                            <img src="{{ url('assets/images/services/hbl.jpg' , 'assets/images/services/2d.3d.4d.png') }}" alt="Services">
+{{--                            <img src="{{ url('assets/images/services/hbl.jpg' , 'assets/images/services/2d.3d.4d.png') }}" alt="Services">--}}
                         </a>
                         <div class="content">
                             <div class="icon">
                                 <i class="flaticon-makeup-1"></i>
                             </div>
-                                <h3>{{ $wish->name }}</h3>
+                                <h3>{!! nl2br(e($wish->name)) !!}</h3>
 
                                 <p>
                                     @foreach($wish->approaches as $approach)
@@ -194,9 +194,9 @@
 {{--                </div>--}}
             </div>
         </div>
-        <div class="services-shape">
-            <img src="{{ url('assets/images/services/services-vector-3.png') }}" alt="Services"/>
-        </div>
+{{--        <div class="services-shape">--}}
+{{--            <img src="{{ url('assets/images/services/services-vector-3.png') }}" alt="Services"/>--}}
+{{--        </div>--}}
     </div>
     <!-- Services Area End -->
 @endsection
