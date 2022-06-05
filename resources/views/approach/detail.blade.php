@@ -45,14 +45,14 @@
                             <p>{!! nl2br(e($approach->description)) !!}</p>
                             <div class="row">
                                 <div class="col-lg-6 col-md-6">
-                                    <div class="services-preview-img">
-                                        <img src="{{ url('assets/images/services/services-img10.jpg') }}" alt="Services Details" />
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6">
-                                    <div class="services-preview-img">
-                                        <img src="{{ url('assets/images/services/services-img15.jpg') }}" alt="Services Details" />
-                                    </div>
+{{--                                    <div class="services-preview-img">--}}
+{{--                                        <img src="{{ url('assets/images/services/services-img10.jpg') }}" alt="Services Details" />--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <div class="col-lg-6 col-md-6">--}}
+{{--                                    <div class="services-preview-img">--}}
+{{--                                        <img src="{{ url('assets/images/services/services-img15.jpg') }}" alt="Services Details" />--}}
+{{--                                    </div>--}}
                                 </div>
                             </div>
 {{--                            <h3>About This Service</h3>--}}

@@ -9,29 +9,29 @@ This files table contents are outlined below>>>>>
 
 *******************************************
 *******************************************
-** - Default CSS Style 
+** - Default CSS Style
 ** - Top Header Area CSS Style
 ** - Navbar Area CSS Style
 ** - Sidebar Modal CSS Style
 ** - Main Banner Area CSS Style
-** - Inner Banner Area CSS Style 
+** - Inner Banner Area CSS Style
 ** - Features Area CSS Style
 ** - About Area CSS Style
 ** - Services Area CSS Style
 ** - Intro Video Area CSS Style
-** - Products Area Style 
+** - Products Area Style
 ** - Product Details Area CSS Style
 ** - Cart Wraps Area CSS Style
 ** - Checkout Area CSS Style
 ** - Customer Services Area  CSS Style
-** - Account Area CSS Style 
+** - Account Area CSS Style
 ** - Pricing Area CSS Style
 ** - Team Area Style
 ** - Testimonial Area CSS Style
 ** - Booking Area CSS Style
 ** - Blog Area CSS Style
 ** - Contact Area CSS Style
-** - Gallery Area CSS Style 
+** - Gallery Area CSS Style
 ** - 404 Error Area CSS Style
 ** - Coming Soon Area Style
 ** - Footer Area CSS Style
@@ -525,7 +525,7 @@ Navbar Area
                             font-size: 15px;
                             position: relative;
                             transition: var(--transition);
-                            
+
                             &:hover, &:focus, &.active {
                                 color: var(--mainColor);
                             }
@@ -592,7 +592,7 @@ Navbar Area
                                                     li {
                                                         a {
                                                             color: var(--titleColor);
-                                                            
+
                                                             &:hover, &:focus, &.active {
                                                                  color: var(--mainColor);
                                                             }
@@ -605,7 +605,7 @@ Navbar Area
                                                             li {
                                                                 a {
                                                                     color: var(--titleColor);
-                                                                    
+
                                                                     &:hover, &:focus, &.active {
                                                                          color: var(--mainColor);
                                                                     }
@@ -968,7 +968,7 @@ Navbar Area
                 top: 52%;
                 transform: translateY(-52%);
             }
-        
+
             &:hover, &:focus {
                 background-color: var(--mainColor);
                 color: var(--whiteColor);
@@ -988,7 +988,7 @@ Navbar Area
             &:last-child {
                 margin-right: 0;
             }
-            
+
             .search-btn {
                 position: relative;
                 top: 3px;
@@ -1059,7 +1059,7 @@ Sidebar Modal
             &.show {
                 .modal-dialog {
                     right: 0;
-                } 
+                }
             }
         }
         .modal-content {
@@ -1219,7 +1219,7 @@ Sidebar Modal
                             }
                         }
                     }
-                }      
+                }
             }
             .sidebar-newsletter {
                 margin-bottom: 0;
@@ -1270,7 +1270,7 @@ Sidebar Modal
                         text-align: center;
                         &:hover {
                             background-color: var(--titleColor);
-                        }                  
+                        }
                     }
                 }
             }
@@ -1554,7 +1554,7 @@ Main Banner Area
             }
         }
     }
-   
+
 }
 .banner-content-two {
     max-width: 620px;
@@ -2616,7 +2616,7 @@ Services Area
     .services-preview-img {
         margin-bottom: 30px;
     }
-    
+
 }
 /*================================
 Intro Video Area
@@ -2692,7 +2692,7 @@ Intro Video Area
             border-radius: 50%;
             animation: ripple 5s infinite ease-in-out;
             transition: var(--transition);
-        }   
+        }
         &::after {
             content: '';
             position: absolute;
@@ -2716,7 +2716,7 @@ Intro Video Area
             &::after {
                 background-color: rgba(145, 20, 57, 0.20);
             }
-        }   
+        }
     }
 }
 .intro-video-bg {
@@ -2769,7 +2769,7 @@ Intro Video Area
             border-radius: 50%;
             animation: ripple 5s infinite ease-in-out;
             transition: var(--transition);
-        }   
+        }
         &::after {
             content: '';
             position: absolute;
@@ -2793,7 +2793,7 @@ Intro Video Area
             &::after {
                 background-color: rgba(145, 20, 57, 0.20);
             }
-        }   
+        }
     }
     .section-title {
         h2 {
@@ -2840,7 +2840,7 @@ Intro Video Area
             border-radius: 50%;
             animation: ripple 5s infinite ease-in-out;
             transition: var(--transition);
-        }   
+        }
         &::after {
             content: '';
             position: absolute;
@@ -2864,7 +2864,7 @@ Intro Video Area
             &::after {
                 background-color: rgba(145, 20, 57, 0.20);
             }
-        }   
+        }
     }
     .section-title {
         h2 {
@@ -2960,7 +2960,7 @@ Products Area
                     }
                 }
             }
-        } 
+        }
         .products-action-two {
             position: absolute;
             top: 30px;
@@ -3014,7 +3014,7 @@ Products Area
                     }
                 }
             }
-        } 
+        }
     }
     .content {
         padding: 0 30px 50px;
@@ -3048,14 +3048,14 @@ Products Area
                 li {
                     transform: translateY(0);
                     opacity: 1;
-                }  
+                }
             }
             .products-action-two {
                 opacity: 1;
                 li {
                     transform: translateY(0);
                     opacity: 1;
-                }  
+                }
             }
         }
         .content {
@@ -3147,7 +3147,7 @@ Products Area
                     }
                 }
             }
-        } 
+        }
     }
     .content {
         padding: 35px 10px 21px;
@@ -3183,7 +3183,7 @@ Products Area
                 li {
                     transform: translateY(0);
                     opacity: 1;
-                }  
+                }
             }
         }
         .content {
@@ -3289,7 +3289,7 @@ Products Area
                     }
                 }
             }
-        } 
+        }
     }
     .content {
         padding: 35px 25px;
@@ -3326,11 +3326,11 @@ Products Area
                 li {
                     transform: translateY(0);
                     opacity: 1;
-                }  
+                }
             }
         }
         .content {
-            .title { 
+            .title {
                 h3 {
                     a {
                         color: var(--mainColor);
@@ -3426,7 +3426,7 @@ Product Details Area
             margin-left: 5px;
             display: inline-block;
             color: #888888;
-            font-weight: 400;      
+            font-weight: 400;
         }
     }
     .price {
@@ -3566,7 +3566,7 @@ Product Details Area
                     }
                 }
             }
-        } 
+        }
     }
     .product-share {
         ul {
@@ -3660,7 +3660,7 @@ Product Details Area
         margin-bottom: 20px;
         &:last-child {
             margin-bottom: 0;
-        }                      
+        }
     }
     .additional-information {
         padding-left: 0;
@@ -3701,7 +3701,7 @@ Product Details Area
                     display: inline-block;
                     padding-left: 5px;
                     line-height: initial;
-                }                         
+                }
             }
             .btn-right {
                 position: absolute;
@@ -3716,7 +3716,7 @@ Product Details Area
                     background-color: var(--titleColor);
                     color: var(--whiteColor);
                 }
-            }   
+            }
         }
         .review-comments {
             margin-top: 35px;
@@ -3776,9 +3776,9 @@ Product Details Area
                     transition: var(--transition);
                     &:hover {
                         color: var(--mainColor);
-                    }                                  
-                }      
-            }                          
+                    }
+                }
+            }
         }
         .review-form {
             margin-top: 25px;
@@ -3792,8 +3792,8 @@ Product Details Area
                     margin-bottom: 25px;
                 }
             }
-        }  
-    } 
+        }
+    }
 }
 /*=================================
 Cart Wraps Area
@@ -3877,7 +3877,7 @@ Cart Wraps Area
                                     position: relative;
                                     top: -4px;
                                 }
-                               
+
                             }
                         }
                         &.product-quantity {
@@ -3977,7 +3977,7 @@ Cart Wraps Area
                     &:hover {
                         background-color: var(--titleColor);
                         color: var(--whiteColor);
-                    }                  
+                    }
                 }
             }
         }
@@ -4092,7 +4092,7 @@ Checkout Area
             &:hover {
                 background-color: var(--titleColor);
                 color: var(--whiteColor);
-            }                  
+            }
         }
     }
 }
@@ -4198,7 +4198,7 @@ Checkout Area
                                     position: relative;
                                     top: -4px;
                                 }
-                               
+
                             }
                         }
                         &.product-quentaty {
@@ -4255,7 +4255,7 @@ Checkout Area
                 opacity: 1;
                 visibility: visible;
                 transform: scale(1);
-            }                
+            }
         }
         p [type="radio"]:not(:checked) {
             display: none;
@@ -4292,7 +4292,7 @@ Checkout Area
                 opacity: 0;
                 visibility: hidden;
                 transform: scale(0);
-            }     
+            }
         }
     }
     .default-btn {
@@ -4372,7 +4372,7 @@ Checkout Area
 }
 
 /*=================================
-Customer Services Area 
+Customer Services Area
 ====================================*/
 .customer-services-content {
     max-width: 1024px;
@@ -4493,10 +4493,10 @@ Account Area
                 text-align: center;
                 vertical-align: middle;
                 border-bottom: 1px solid #dee2e6 !important;
-                
+
                 font-weight: bold;
                 padding: 15px;
-               
+
             }
         }
         tbody {
@@ -4512,7 +4512,7 @@ Account Area
 
                 &.total, &.total-price {
                     color: var(--bodyColor);
-                    
+
                 }
                 strong {
                     font-weight: 500;
@@ -4702,7 +4702,7 @@ Pricing Area
             }
         }
     }
-   
+
     &:hover {
         transform: translateY(-5px);
     }
@@ -4809,19 +4809,19 @@ Team Area
                     &:nth-child(1) {
                         z-index: 1;
                     }
-                
+
                     &:nth-child(2) {
                         bottom: 85px;
                     }
-                
+
                     &:nth-child(3) {
                         bottom: 150px;
                     }
-                
+
                     &:nth-child(4) {
                         bottom: 215px;
                     }
-    
+
                     &:nth-child(5) {
                         bottom: 280px;
                     }
@@ -5472,17 +5472,17 @@ Blog Area
                         &:nth-child(1) {
                             z-index: 1;
                         }
-                    
+
                         &:nth-child(2) {
                             bottom: -30px;
                             opacity: 1;
                         }
-                    
+
                         &:nth-child(3) {
                             bottom: -62px;
                             opacity: 1;
                         }
-                    
+
                         &:nth-child(4) {
                             bottom: -93px;
                             opacity: 1;
@@ -5595,7 +5595,7 @@ Blog Area
                 border-radius: 50%;
                 animation: ripple 5s infinite ease-in-out;
                 transition: var(--transition);
-            }   
+            }
             &::after {
                 content: '';
                 position: absolute;
@@ -5619,7 +5619,7 @@ Blog Area
                 &::after {
                     background-color: rgba(145, 20, 57, 0.20);
                 }
-            }   
+            }
         }
     }
     .blog-preview-slider {
@@ -5900,7 +5900,7 @@ Blog Area
             transition: var(--transition);
             &:hover {
                 background: var(--titleColor);
-            }           
+            }
         }
     }
 }
@@ -5977,7 +5977,7 @@ Blog Area
                         }
                     }
                 }
-            }              
+            }
         }
     }
     .widget-popular-post {
@@ -6132,8 +6132,8 @@ Blog Area
                 font-weight: 600;
                 color: var(--mainColor);
                 background-color: transparent;
-            }  
-        } 
+            }
+        }
     }
 }
 .services-catagory {
@@ -6180,7 +6180,7 @@ Blog Area
             &:hover {
                 a {
                     color: var(--whiteColor);
-                    &::before { 
+                    &::before {
                         width: 100%;
                         opacity: 1;
                     }
@@ -6189,7 +6189,7 @@ Blog Area
                     }
                 }
             }
-        }              
+        }
     }
 }
 .author-profile {
@@ -6883,7 +6883,7 @@ Coming Soon Area
                     margin-right: 0;
                     &::before {
                         display: none;
-                    }  
+                    }
                 }
                 &:first-child {
                     margin-left: 0;
@@ -7085,7 +7085,7 @@ Footer Area
                     color: var(--whiteColor);
                 }
                 .content {
-                   
+
                     span {
                         a {
                             color: var(--mainColor);
@@ -7131,7 +7131,7 @@ Footer Area
         }
         &:hover {
             background-color: var(--titleColor);
-        }                  
+        }
     }
     .validation-danger {
         font-size: 18px;
@@ -7165,7 +7165,7 @@ Copyright Area
 }
 
 /*=================================
-Modal CSS 
+Modal CSS
 ====================================*/
 .productsQuickView {
     .modal-dialog {
@@ -7203,7 +7203,7 @@ Modal CSS
 }
 
 /*=================================
-Go Top Area 
+Go Top Area
 ====================================*/
 .go-top {
     position: fixed;
@@ -7319,7 +7319,7 @@ Preloader CSS
         height: 100%;
         background-color: var(--mainColor);
         z-index: 999;
-        transform: translateX(0);  
+        transform: translateX(0);
         &.preloader-left {
             left: 0;
         }
@@ -7336,13 +7336,13 @@ Preloader CSS
         transition: all 0.3s ease-out;
     }
     #preloader {
-        .preloader-section { 
+        .preloader-section {
             &.preloader-left {
-                transform: translateX(-100%); 
+                transform: translateX(-100%);
                 transition: all 0.8s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
             }
             &.preloader-right {
-                transform: translateX(100%);  
+                transform: translateX(100%);
                 transition: all 0.8s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
             }
         }
@@ -7352,7 +7352,7 @@ Preloader CSS
 .loaded {
     #preloader {
         visibility: hidden;
-        transform: translateY(-100%);  
+        transform: translateY(-100%);
         transition: all 0.3s 1s ease-out;
     }
 }
@@ -7391,20 +7391,20 @@ Animation CSS
 ====================================*/
 @-webkit-keyframes rotate360 {
     50% {
-        -ms-transform: rotate(360deg) scale(0.8); 
-        -moz-transform: rotate(360deg) scale(0.8); 
-        -webkit-transform: rotate(360deg) scale(0.8); 
-        transform: rotate(360deg) scale(0.8); 
+        -ms-transform: rotate(360deg) scale(0.8);
+        -moz-transform: rotate(360deg) scale(0.8);
+        -webkit-transform: rotate(360deg) scale(0.8);
+        transform: rotate(360deg) scale(0.8);
     }
 }
 
 @keyframes rotate360 {
     50% {
-        -ms-transform: rotate(360deg) scale(0.8); 
-        -moz-transform: rotate(360deg) scale(0.8); 
-        -webkit-transform: rotate(360deg) scale(0.8); 
-        transform: rotate(360deg) scale(0.8); 
-    }	
+        -ms-transform: rotate(360deg) scale(0.8);
+        -moz-transform: rotate(360deg) scale(0.8);
+        -webkit-transform: rotate(360deg) scale(0.8);
+        transform: rotate(360deg) scale(0.8);
+    }
 }
 
 @keyframes sping-round {
@@ -7443,7 +7443,7 @@ Animation CSS
               transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
     }
 }
-  
+
 @keyframes rotate-in {
     0% {
         -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
@@ -7464,13 +7464,13 @@ Animation CSS
       -webkit-transform: scale(1);
       transform: scale(1);
     }
-  
+
     75% {
       -webkit-transform: scale(1.5);
       transform: scale(1.5);
       opacity: 1;
     }
-  
+
     100% {
       -webkit-transform: scale(1.75);
       transform: scale(1.75);
@@ -7483,13 +7483,13 @@ Animation CSS
       -webkit-transform: scale(1);
       transform: scale(1);
     }
-  
+
     75% {
       -webkit-transform: scale(1.5);
       transform: scale(1.5);
       opacity: 1;
     }
-  
+
     100% {
       -webkit-transform: scale(1.75);
       transform: scale(1.75);
@@ -7499,14 +7499,14 @@ Animation CSS
 
 @keyframes moveleftbounce {
     0% {
-        transform: translateX(0px); 
+        transform: translateX(0px);
     }
     50% {
-        transform: translateX(20px); 
+        transform: translateX(20px);
     }
     100% {
-        transform: translateX(0px); 
-    } 
+        transform: translateX(0px);
+    }
 }
 
 @keyframes fadeInUp {

@@ -41,7 +41,7 @@
                 @foreach($salons as $salon)
                     <div class="col-lg-4 col-md-6">
                         <div class="testimonial-item testimonial-item-color">
-                            <img src="{{ url('assets/images/testimonial/testimonial-img1.jpg') }}" alt="Testimonial"/>
+                            <img src="{{ url('assets/images/testimonial/testimonial-img-1.jpg') }}" alt="Testimonial"/>
                             <h3>{{ $salon->name }}</h3>
                             <p>{{ $salon->address }}</p>
 

@@ -67,9 +67,13 @@
     <div class="desktop-nav nav-area">
         <div class="container-fluid">
             <nav class="navbar navbar-expand-md navbar-light ">
-                <a class="navbar-brand" href="index.blade.php">
+{{--                <a class="navbar-brand" href="index.blade.php">--}}
+{{--                    ロゴ押すとHomeへ戻る--}}
+                    <a class="navbar-brand" href="/parts">
+
                     <img src="{{ url('assets/images/favicon_beauty_3.png') }}" class="logo-one" alt="Logo">
-                    <img src="{{ url('assets/images/favicon_beauty_3.png') }}" class="logo-two" alt="Logo">
+                    Find Beauty
+{{--                    <img src="{{ url('assets/images/favicon_beauty_3.png') }}" class="logo-two" alt="Logo">--}}
                 </a>
 
                 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
