@@ -20,7 +20,7 @@ class SalonController extends Controller
             'page' => 1
         ], ['page' => $request->query('page')]);
 
-        //salonsのテーブルの一覧データ
+        //salonsのテーブルの一覧データ　orderByDesc・・・assessmentの降順
         $salons = Salon::query()->orderByDesc('assessment')->paginate(
             $option['perPage'],
             $option['columns'],

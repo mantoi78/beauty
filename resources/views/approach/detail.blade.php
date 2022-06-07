@@ -37,7 +37,7 @@
                     <div class="col-lg-10">
                         <div class="services-details-content">
                             <div class="services-preview-img">
-{{--                                詳細ページ画像--}}
+                                {{-- 詳細ページ画像--}}
 {{--                                <img src="{{ url('assets/images/gallery/eye_11_1100×649.png') }}" alt="Services Details" />--}}
                                 <img src="{{ url("assets/images/gallery/services-details/sd-img". -$approach->id . ".jpg") }}" alt="Services Details"/>
                             </div>
