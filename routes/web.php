@@ -20,9 +20,6 @@ use App\Http\Controllers\FavoriteController;
 |
 */
 
-////TOPページの表示
-//Route::get('/', 'App\Http\Controllers\WebController@index')
-//    ->name('top');
 
 //TOPと部位一覧ページの表示
 Route::get('/', [PartController::class, 'index'])
@@ -40,23 +37,13 @@ Route::get('/salons', [SalonController::class, 'index'])
     ->name('salons.index');
 
 
-//Route::get('/salons', [SalonController::class, 'index']);
 
-////Route::get('/wishes/{part_id}', [WishController::class, 'index']);
-//Route::get('/approaches', [ApproachController::class, 'index']);
-//
-//Route::get('/approaches/{id}', [ApproachController::class, 'detail']);
-//Route::get('/menus', [MenuController::class, 'index']);
-//Route::get('/favorites', [FavoriteController::class, 'index']);
 
 Route::get('/about', function (){
     return view('naon.about');
 });
 
 
-//Route::get('/toppage', function (){
-//    return view('parts.index');
-//});
 
 
 

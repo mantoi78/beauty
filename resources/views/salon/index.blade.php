@@ -16,7 +16,7 @@
                         <h3>Salon</h3>
                         <ul>
                             <li>
-                                <a href="/parts">Home</a>
+                                <a href="{{ route('parts.index') }}">Home</a>
                             </li>
                             <li>サロン一覧</li>
                         </ul>
@@ -45,7 +45,7 @@
                             <h3>{{ $salon->name }}</h3>
                             <p>{{ $salon->address }}</p>
 
-{{--                            星評価--}}
+                        {{-- 星評価--}}
                             <div class="rating">
                                 <span class="star-rating"></span>
                                 @for($i = 1; $i <= $salon->assessment; $i++)

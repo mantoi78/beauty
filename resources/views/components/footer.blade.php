@@ -41,50 +41,20 @@
                                 <i class="ri-twitter-fill"></i>
                             </a>
                         </li>
-{{--                        <li>--}}
-{{--                            <a href="https://www.linkedin.com/" target="_blank">--}}
-{{--                                <i class="ri-linkedin-fill"></i>--}}
-{{--                            </a>--}}
-{{--                        </li>--}}
-{{--                        <li>--}}
-{{--                            <a href="https://vimeo.com/" target="_blank">--}}
-{{--                                <i class="ri-vimeo-fill"></i>--}}
-{{--                            </a>--}}
-{{--                        </li>--}}
+
                     </ul>
                 </div>
             </div>
 
             <div class="col-lg-3 col-sm-6">
                 <div class="footer-widget pe-2">
-{{--                    <h3>Our Newsletter</h3>--}}
-{{--                    <form class="newsletter-form" data-toggle="validator" method="POST">--}}
-{{--                        <input type="email" class="form-control" placeholder="Enter Your Email Address" name="EMAIL" required autocomplete="off">--}}
-{{--                        <button class="subscribe-btn" type="submit">--}}
-{{--                            Subscribe Now <i class="flaticon-paper-plane"></i>--}}
-{{--                        </button>--}}
-{{--                        <div id="validator-newsletter" class="form-result"></div>--}}
-{{--                    </form>--}}
+
                 </div>
             </div>
 
             <div class="col-lg-2 col-sm-6">
                 <div class="footer-widget ps-4">
-{{--                    <h3>Salon Hours</h3>--}}
-{{--                    <ul class="salon-hours">--}}
-{{--                        <li>--}}
-{{--                            <div class="content">--}}
-{{--                                <h3>Monday - Friday</h3>--}}
-{{--                                <span>09:00 AM - 10:00 PM </span>--}}
-{{--                            </div>--}}
-{{--                        </li>--}}
-{{--                        <li>--}}
-{{--                            <div class="content">--}}
-{{--                                <h3>Saturday - Sunday</h3>--}}
-{{--                                <span>10:00 AM - 08:00 PM </span>--}}
-{{--                            </div>--}}
-{{--                        </li>--}}
-{{--                    </ul>--}}
+
                 </div>
             </div>
 
