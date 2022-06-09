@@ -23,7 +23,7 @@
                             <img src="{{ url('assets/images/logos/logo_diamond.png') }}" class="footer-logo1" alt="Images">
                         </a>
                         <a href="index.blade.php">
-                            <img src="{{ url('assets/images/logos/logo_diamond.pn') }}g" class="footer-logo2" alt="Images">
+                            <img src="{{ url('assets/images/logos/logo_diamond.png') }}g" class="footer-logo2" alt="Images">
                         </a>
                     </div>
 
