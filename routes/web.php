@@ -25,7 +25,7 @@ use App\Http\Controllers\FavoriteController;
 //    ->name('top');
 
 //TOPと部位一覧ページの表示
-Route::get('/parts', [PartController::class, 'index'])
+Route::get('/', [PartController::class, 'index'])
     ->name('parts.index');
 //部位を選択した後の希望とメニュー一覧の表示
 Route::get('/parts/{part_id}', [WishController::class, 'index'])
