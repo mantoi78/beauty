@@ -25,7 +25,7 @@
                             {{--                            <span>Nail and Beauty Salon</span>--}}
                             <h2>メニューの説明が見たい</h2>
                             {{--                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut elit tellus luctus nec ullamcorper mattis pulvinar dapibus leo consectetur</p>--}}
-                            <a href="about.html" class="learn-btn">Learn More <i class="flaticon-arrow-pointing-to-right"></i></a>
+                            <a href="/about" class="learn-btn">Learn More <i class="flaticon-arrow-pointing-to-right"></i></a>
                         </div>
                     </div>
 
