@@ -108,7 +108,7 @@
 {{--                        <div class="side-bar-widget">--}}
 {{--                            <h3 class="title">Our Brochure</h3>--}}
 {{--                            <p class="mb-15">Alienum phaedrum torquatos nec eu vis detra peri culis ex nihil is in mei. Mei an pericula hincar tem ei est Alienum phae</p>--}}
-                            <button class="default-btn active" type="submit" onclick="location.href='http://127.0.0.1:8000/salons' ">サロン予約しよう!</button>
+                            <button class="default-btn active" type="submit" onclick="location.href='{{ route('salons.index') }}' ">サロン予約しよう!</button>
                         </div>
 {{--                        <a href="http://127.0.0.1:8080/salons" class="btn btn-primary" role="button">サロン予約しよう！</a>--}}
                         </div>
