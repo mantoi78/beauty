@@ -78,7 +78,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a href="{{ route('parts.index') }}" class="nav-link">
+                            <a href="{{ route('naon.about') }}" class="nav-link">
                                 About Us
                             </a>
                         </li>
