@@ -71,5 +71,4 @@
     <!-- Copyright Area End -->
 
 
-    </body>
 @endsection

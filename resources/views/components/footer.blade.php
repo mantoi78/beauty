@@ -6,7 +6,6 @@
                 Copyright @
                 <script>document.write(new Date().getFullYear())</script>
                 <b>mana furukawa</b>
-{{--                <a href="https://hibootstrap.com/" target="_blank">HiBootstrap</a>--}}
             </p>
         </div>
     </div>
@@ -27,9 +26,7 @@
                             <img src="{{ url('assets/images/logos/logo_diamond.pn') }}g" class="footer-logo2" alt="Images">
                         </a>
                     </div>
-{{--                    <p>--}}
-{{--                        Pellentesque habitant morbi tristique senectus netus malesuada fames ac turpis egestas vesti ulum tortor quam bulum tortor feugiat--}}
-{{--                    </p>--}}
+
                     <ul class="social-link">
                         <li>
                             <a href="https://www.facebook.com/" target="_blank">
