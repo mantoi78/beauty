@@ -19,10 +19,10 @@
             <div class="col-lg-4 col-sm-6">
                 <div class="footer-widget pe-5">
                     <div class="footer-logo">
-                        <a href="index.blade.php">
+                        <a href="{{ route('parts.index') }}">
                             <img src="{{ url('assets/images/logos/logo_diamond.png') }}" class="footer-logo1" alt="Images">
                         </a>
-                        <a href="index.blade.php">
+                        <a href="{{ route('parts.index') }}">
                             <img src="{{ url('assets/images/logos/logo_diamond.png') }}g" class="footer-logo2" alt="Images">
                         </a>
                     </div>
