@@ -69,7 +69,7 @@
             <nav class="navbar navbar-expand-md navbar-light ">
 {{--                <a class="navbar-brand" href="index.blade.php">--}}
 {{--                    ロゴ押すとHomeへ戻る--}}
-                    <a class="navbar-brand" href="/parts">
+                    <a class="navbar-brand" href="{{ route('parts.index') }}">
 
                     <img src="{{ url('assets/images/favicon_beauty_3.png') }}" class="logo-one" alt="Logo">
                     Find Beauty
