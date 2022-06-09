@@ -15,7 +15,6 @@ class WishController extends Controller
     public function index(int $part_id)
     {
         $part = Part::query()->with('wishes')->with('wishes.approaches')->find($part_id);
-        dd($part);
         return view('wish.index', compact('part'));
     }
 
