@@ -79,7 +79,7 @@
                 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                     <ul class="navbar-nav m-auto">
                         <li class="nav-item">
-                            <a href="/parts" class="nav-link">
+                            <a href="{{ route('parts.index') }}" class="nav-link">
                                 Home
                             </a>
                             {{--                                <ul class="dropdown-menu">--}}
