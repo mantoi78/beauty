@@ -1,11 +1,6 @@
 @extends('layouts.layouts')
 
-
 @section('content')
-
-
-    <body>
-
 
     <!-- Inner Banner -->
     <div class="inner-banner">
@@ -45,7 +40,7 @@
                             <h3>{{ $salon->name }}</h3>
                             <p>{{ $salon->address }}</p>
 
-                        {{-- 星評価--}}
+                            {{-- 星評価--}}
                             <div class="rating">
                                 <span class="star-rating"></span>
                                 @for($i = 1; $i <= $salon->assessment; $i++)
@@ -62,5 +57,5 @@
             </div>
         </div>
     </div>
-    </body>
+
 @endsection

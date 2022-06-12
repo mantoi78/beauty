@@ -7,31 +7,12 @@
                     <ul>
                         <li>
                             <i class="flaticon-email"></i>
-                            <a href="mailto:info@findbeauty.com">info@findbeauty.com</a>
+                            <a href="mailto:info@findbeauty.com">*info@findbeauty.com</a>
                         </li>
                         <li>
                             <i class="flaticon-telephone"></i>
-                            <a href="tel:+123-456-778">+123 456 778</a>
+                            <a href="tel:+123-456-778">+12* 456 778</a>
                         </li>
-
-                    </ul>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-3">
-                <div class="header-right">
-                    <ul class="social-links">
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank">
-                                <i class="flaticon-facebook"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank">
-                                <i class="flaticon-twitter"></i>
-                            </a>
-                        </li>
-
 
                     </ul>
                 </div>
@@ -59,13 +40,13 @@
     <div class="desktop-nav nav-area">
         <div class="container-fluid">
             <nav class="navbar navbar-expand-md navbar-light ">
-{{--                <a class="navbar-brand" href="index.blade.php">--}}
-{{--                    ロゴ押すとHomeへ戻る--}}
-                    <a class="navbar-brand" href="{{ route('parts.index') }}">
+                {{-- <a class="navbar-brand" href="index.blade.php">--}}
+                {{--  ロゴ押すとHomeへ戻る--}}
+                <a class="navbar-brand" href="{{ route('parts.index') }}">
 
                     <img src="{{ url('assets/images/favicon_beauty_3.png') }}" class="logo-one" alt="Logo">
                     Find Beauty
-{{--                    <img src="{{ url('assets/images/favicon_beauty_3.png') }}" class="logo-two" alt="Logo">--}}
+                    {{--                    <img src="{{ url('assets/images/favicon_beauty_3.png') }}" class="logo-two" alt="Logo">--}}
                 </a>
 
                 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
@@ -121,9 +102,8 @@
                             <a href="{{ route('salons.index') }}" class="nav-link">
                                 Salons
                             </a>
-
                         </li>
-
+                    </ul>
                 </div>
             </nav>
         </div>

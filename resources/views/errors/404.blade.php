@@ -2,7 +2,6 @@
 
 @section('content')
 
-
     <!-- Modal Start -->
     <div class="modal fade fade-scale searchmodal" id="searchmodal" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
@@ -65,10 +64,5 @@
         </div>
     </div>
     <!-- End 404 Error -->
-
-
-
-    <!-- Copyright Area End -->
-
 
 @endsection

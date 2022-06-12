@@ -2,7 +2,6 @@
 
 @section('content')
 
-
     <!-- About Area -->
     <div class="about-area pt-100 pb-70">
         <div class="container">
@@ -48,6 +47,5 @@
         </div>
     </div>
     <!-- About Area End -->
-
 
 @endsection

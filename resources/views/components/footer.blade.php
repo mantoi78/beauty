@@ -19,27 +19,11 @@
             <div class="col-lg-4 col-sm-6">
                 <div class="footer-widget pe-5">
                     <div class="footer-logo">
+                        <h3>Find Beauty</h3>
                         <a href="{{ route('parts.index') }}">
                             <img src="{{ url('assets/images/logos/logo_diamond.png') }}" class="footer-logo1" alt="Images">
                         </a>
-                        <a href="{{ route('parts.index') }}">
-                            <img src="{{ url('assets/images/logos/logo_diamond.png') }}g" class="footer-logo2" alt="Images">
-                        </a>
                     </div>
-
-                    <ul class="social-link">
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank">
-                                <i class="ri-facebook-fill"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank">
-                                <i class="ri-twitter-fill"></i>
-                            </a>
-                        </li>
-
-                    </ul>
                 </div>
             </div>
 
@@ -63,21 +47,21 @@
                             <i class="flaticon-telephone"></i>
                             <div class="content">
                                 <h4>Contact Us</h4>
-                                <span><a href="tel:+123456778" target="_blank">+123 456 778</a></span>
+                                <span><a href="tel:+123456778" target="_blank">+12* 456 778</a></span>
                             </div>
                         </li>
                         <li>
                             <i class="flaticon-email"></i>
                             <div class="content">
                                 <h4>Email:</h4>
-                                <span><a href="mailto:hello@findbeauty.com" target="_blank">hello@findbeauty.com</a></span>
+                                <span><a href="mailto:hello@findbeauty.com" target="_blank">*hello@findbeauty.com</a></span>
                             </div>
                         </li>
                         <li>
                             <i class="flaticon-pin"></i>
                             <div class="content">
                                 <h4>Address</h4>
-                                <span>151, Demo Store Japan</span>
+                                <span>*151, Demo Store Japan</span>
                             </div>
                         </li>
                     </ul>

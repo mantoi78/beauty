@@ -32,20 +32,20 @@
     <div class="services-area ptb-100">
         <div class="container">
             <div class="section-title mb-45 text-center">
-{{--                <span>Our Services</span>--}}
+                {{--                <span>Our Services</span>--}}
                 <h2>What We Want</h2>
             </div>
             <div class="row justify-content-center">
                 @foreach($part->wishes as $wish)
 
-                <div class="col-lg-4 col-md-6">
-                    <div class="services-item-two">
-                        <a href="service-details.html">
-                        </a>
-                        <div class="content">
-                            <div class="icon">
-                                <i class="flaticon-makeup-1"></i>
-                            </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="services-item-two">
+                            <a href="service-details.html">
+                            </a>
+                            <div class="content">
+                                <div class="icon">
+                                    <i class="flaticon-makeup-1"></i>
+                                </div>
                                 <h3>{!! nl2br(e($wish->name)) !!}</h3>
 
                                 <p>
@@ -57,16 +57,13 @@
                                 <div class="content-right">
                                     <img src="{{ url('assets/images/services/services-vector-2.png') }}" alt="Service">
                                 </div>
+                            </div>
                         </div>
                     </div>
-                </div>
                 @endforeach
-
-
 
             </div>
         </div>
-
     </div>
     <!-- Services Area End -->
 @endsection
