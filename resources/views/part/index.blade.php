@@ -174,7 +174,6 @@
             </div>
         </div>
     </div>
-    </div>
     <!-- Gallery Area End -->
 
 @endsection
