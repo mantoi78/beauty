@@ -26,6 +26,7 @@ class AppServiceProvider extends ServiceProvider
         // 本番の時https
         if (!app()->isLocal()) {
             \URL::forceScheme('https');
+            $this->app['request']->server->set('HTTPS','on');
         }
     }
 }
